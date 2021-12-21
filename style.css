@@ -1,0 +1,25 @@
+body {
+  background: lightpink;
+  margin-top: 2rem;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  text-align: center;
+  padding: 2rem;
+  border: 2px dashed darkorchid;
+}
+
+.head {
+  border: 2px dotted lightseagreen;
+}
+
+span{
+    margin: 1.5rem;
+}
+
+.box {
+  border: 2px solid limegreen;
+}
