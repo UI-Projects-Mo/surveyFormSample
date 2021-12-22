@@ -31,13 +31,13 @@
       <div class="box">
         <form action="" class="fmarg">
           <label for="uname">Username</label>
-          <input type="text" name="" id="uname" />
+          <input class="inp" type="text" name="" id="uname" />
 
           <label for="email">Email</label>
-          <input type="email" name="" id="email" />
+          <input class="inp" type="email" name="" id="email" />
 
           <label for="age">Date of Birth</label>
-          <input type="date" name="" id="age" />
+          <input class="inp" type="date" name="" id="age" />
 
           <label for="role"
             >Which option best describes your current role ?</label
@@ -49,6 +49,42 @@
             <option value="doctor">Doctor</option>
             <option value="dentist">Dentist</option>
           </select>
+
+          <p>Would you recommend Mo's UI design to a friend?</p>
+
+          <input
+            class="inp"
+            type="radio"
+            id="yes"
+            name="star"
+            value="YES"
+            checked
+          />
+            <label for="html">Yes</label><br />
+
+          <input
+            class="inp"
+            type="radio"
+            id="maybe"
+            name="star"
+            value="MAYBE"
+          />
+            <label for="html">Maybe</label><br />
+
+          <input class="inp" type="radio" id="no" name="star" value="NO" />  
+          <label for="html">No</label><br />
+
+          <label for="feedback">Any comments or suggestions?</label>
+          <textarea
+            name=""
+            id="feedback"
+            cols="30"
+            rows="4"
+            placeholder="bla bla"
+          ></textarea>
+
+          <label for="btn">Finished filling out the form ?</label>
+          <button id="btn" type="submit">Submit</button>
         </form>
       </div>
     </div>
