@@ -20,21 +20,36 @@
           Survey Form
           <i class="fas fa-pencil-alt fa-spin"></i>
         </h1>
-        <p class="h1p">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          perferendis?
-        </p>
+        <h2 class="h1p">
+          <i> Thank you for taking the time to help us improve the platform</i>
+        </h2>
       </div>
 
       <hr />
 
+      <div style="margin: 2% 0">
+        <i class="fas fa-dove"></i>
+      </div>
+
       <div class="box">
         <form action="" class="fmarg">
           <label for="uname">Username</label>
-          <input class="inp" type="text" name="" id="uname" />
+          <input
+            class="inp"
+            type="text"
+            name=""
+            id="uname"
+            placeholder="Enter your name..."
+          />
 
           <label for="email">Email</label>
-          <input class="inp" type="email" name="" id="email" />
+          <input
+            class="inp"
+            type="email"
+            name=""
+            id="email"
+            placeholder="Enter your email..."
+          />
 
           <label for="age">Date of Birth</label>
           <input class="inp" type="date" name="" id="age" />
@@ -74,17 +89,36 @@
           <input class="inp" type="radio" id="no" name="star" value="NO" />  
           <label for="html">No</label><br />
 
+          <label for="improv"
+            >What would you like better ? (Check all that apply)
+          </label>
+          <br />
+          <input type="checkbox" id="op1" name="op1" value="op1" />
+          <label for="op1"> Moodboard</label><br />
+
+          <input type="checkbox" id="op2" name="op2" value="op2" />
+          <label for="op2"> Layout</label><br />
+
+          <input type="checkbox" id="op3" name="op3" value="op3" />
+          <label for="op3"> Fonts</label><br />
+
           <label for="feedback">Any comments or suggestions?</label>
           <textarea
             name=""
             id="feedback"
             cols="30"
             rows="4"
-            placeholder="bla bla"
+            placeholder="bla bla bla............."
           ></textarea>
+
+          <div style="margin: 2% 0">
+            <i class="fas fa-dove"></i>
+          </div>
 
           <label for="btn">Finished filling out the form ?</label>
           <button id="btn" type="submit">Submit</button>
+
+          
         </form>
       </div>
     </div>
